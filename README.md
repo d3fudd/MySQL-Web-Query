@@ -12,11 +12,11 @@ Neste caso o **MySQL-Web-Query** pode ser útil.
 
 Transfira o script para o web server em um diretório acessível via browser:
 ```
-wget https://url/query.php
+wget https://raw.githubusercontent.com/caique-garbim/MySQL-Web-Query/main/query.php
 ```
 ou
 ```
-curl https://url/query.php > query.php
+curl https://raw.githubusercontent.com/caique-garbim/MySQL-Web-Query/main/query.php > query.php
 ```
 <br>
 
