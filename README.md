@@ -20,7 +20,7 @@ curl https://raw.githubusercontent.com/caique-garbim/MySQL-Web-Query/main/query.
 ```
 <br>
 
-**db** (database) and **q** (query) parameters must be informed. Examples:
+You can query the database through parameters inserted in the URL. **db** (database) and **q** (query) parameters must be informed. Examples:
 ```
 http://web_server/query.php?db=mysql&q=select user();
 ```
