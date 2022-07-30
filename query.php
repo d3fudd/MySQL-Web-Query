@@ -1,8 +1,8 @@
 <?php
 
 $host = "localhost";
-$user = "root";		// usuário
-$pass = "toor";		// senha
+$user = "root";		// usuário (TROCAR)
+$pass = "toor";		// senha (TROCAR)
 
 // conecta no MySQL
 $con = mysql_pconnect($host, $user, $pass) or trigger_error(mysql_error(),E_USER_ERROR);
