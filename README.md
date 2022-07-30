@@ -1,4 +1,4 @@
-# MySQL-Web-Query
+# MySQL Web-Query
 
 There are cases (in a post-exploitation scenario) where, after committing a web application and getting the shell, it is not possible to interact with MySQL due to the limitations of interaction from the shell that was obtained.
 
