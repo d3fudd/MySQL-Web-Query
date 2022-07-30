@@ -20,6 +20,12 @@ curl https://raw.githubusercontent.com/caique-garbim/MySQL-Web-Query/main/query.
 ```
 <br>
 
+**YOU MUST CHANGE THE CREDENTIALS WRITTEN IN THIS SCRIPT TO VALID MYSQL CREDENTIALS**
+
+![image](https://user-images.githubusercontent.com/76706456/181995869-3400e6e9-c19c-4d70-883a-cf4400197ccf.png)
+
+<br>
+
 You can query the database through parameters inserted in the URL. **db** (database) and **q** (query) parameters must be informed. Examples:
 ```
 http://web_server/query.php?db=mysql&q=select user();
