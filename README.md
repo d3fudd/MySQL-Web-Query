@@ -10,16 +10,6 @@ The compromised web server is required to use PHP technology and MySQL as DBMS.
 
 ### 📋 How to use
 
-Transfer the script to the web server in a directory accessible by the browser:
-```
-wget https://raw.githubusercontent.com/caique-garbim/MySQL-Web-Query/main/query.php
-```
-or
-```
-curl https://raw.githubusercontent.com/caique-garbim/MySQL-Web-Query/main/query.php > query.php
-```
-<br>
-
 **YOU MUST CHANGE THE CREDENTIALS WRITTEN IN THIS SCRIPT TO VALID MYSQL CREDENTIALS**
 
 ![image](https://user-images.githubusercontent.com/76706456/181995869-3400e6e9-c19c-4d70-883a-cf4400197ccf.png)
